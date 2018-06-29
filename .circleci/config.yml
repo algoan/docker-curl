@@ -14,7 +14,7 @@ workflows:
             tags:
               only: /.*/ 
 image_config: &image_config
-  DOCKERHUB_ID: yelloan
+  DOCKERHUB_ID: algoan
   DOCKER_IMAGE: docker-curl
 jobs:
   build_and_deploy:
