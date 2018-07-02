@@ -43,14 +43,6 @@ jobs:
     steps:
       - checkout
       - run: 
-          name: Verify existance of docker
-          command: docker -v
-      - run: 
-          name: Verify existance of gcloud command
-          command: gcloud --version
-      - run: 
-          name: Verify existance of kubectl command
-          command: kubectl
-      - run: 
-          name: Verify existance of node
-          command: node --version
+          name: Verify existance of curl
+          command: curl --version
+   
